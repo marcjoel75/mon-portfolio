@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Développeur en devenir</title>
+    <link rel="stylesheet" href="style_5.css">
+    <script src="script_5.js" defer></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">Marc Joël BÉLABRE</div>
+        <nav>
+            <ul class="menu">
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Je suis <span class="Marc_Joël">Marc Joël</span>, Développeur en devenir, passionné par le web et le design !</h1>
+        <a href="#projects" class="btn-primary">Voir mes projets</a>
+        <img src="workspace.jpeg" alt="Illustration développeur" class="hero-image">
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>À propos</h2>
+        <div class="about-content">
+            <p>Je suis <strong>Marc Joël BÉLABRE</strong>, passionné par la création de sites web modernes et interactifs. En tant qu'étudiant en développement web, je m'applique à renforcer mes compétences en, <strong>HTML, CSS et JavaScript</strong>, tout en explorant des outils innovants pour perfectionner mes projets.</p>
+            <p>Ce qui m’anime, c’est la transformation d’idées abstraites en solutions concrètes et fonctionnelles. J’aime relever des défis créatifs et concevoir des interfaces intuitives qui marient esthétique et performance. Mon objectif est de contribuer à des projets ambitieux, tout en poursuivant mon apprentissage dans un domaine en constante évolution.</p>
+            <div class="button-group">
+                <a href="#" id="download-cv" class="btn-secondary">Télécharger mon CV</a>
+                <a href="#" id="view-cv" class="btn-secondary">Voir mon CV</a>
+            </div>
+        </div>
+        <img src="my avatar.png" alt="Photo de profil" class="profile-photo">
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>Mes Projets</h2>
+        <div class="projects-container">
+            <div class="project">
+                <p>Un mini-jeu interactif en JavaScript qui utilise des événements DOM.</p>
+                <p class="tags">#html #css #js</p>
+            </div>
+            <div class="project">
+                <p>Un site vitrine moderne avec animations CSS.</p>
+                <p class="tags">#html #css</p>
+            </div>
+            <div class="project">
+                <p>Un portfolio interactif développé avec ReactJS.</p>
+                <p class="tags">#reactjs #javascript</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>Mes Compétences</h2>
+        <div class="skills-container">
+            <div class="skills-category">
+                <h3>Soft Skills</h3>
+                <div class="progress-bar-wrapper">
+                    <p>Coordination de taches</p>
+                    <div class="progress-bar"><span style="width: 85%;"></span></div>
+                </div>
+                <div class="progress-bar-wrapper">
+                    <p>Échange d'informations</p>
+                    <div class="progress-bar"><span style="width: 90%;"></span></div>
+                </div>
+                <div class="progress-bar-wrapper">
+                    <p>Gestion des défis</p>
+                    <div class="progress-bar"><span style="width: 80%;"></span></div>
+                </div>
+                <div class="progress-bar-wrapper">
+                    <p>Flexibilité</p>
+                    <div class="progress-bar"><span style="width: 85%;"></span></div>
+                </div>
+            </div>
+            <div class="skills-category">
+                <h3>Hard Skills</h3>
+                <div class="progress-bar-wrapper">
+                    <p>HTML</p>
+                    <div class="progress-bar"><span style="width: 95%;"></span></div>
+                </div>
+                <div class="progress-bar-wrapper">
+                    <p>CSS</p>
+                    <div class="progress-bar"><span style="width: 95%;"></span></div>
+                </div>
+                <div class="progress-bar-wrapper">
+                    <p>JavaScript</p>
+                    <div class="progress-bar"><span style="width: 85%;"></span></div>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Vous avez un projet en tête ?</h2>
+        <p>N'hésitez pas à me <strong>contacter</strong></p>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="prenom">Votre prénom</label>
+                <input type="text" id="prenom" name="prenom" required>
+            </div>
+            <div class="form-group">
+                <label for="nom">Votre nom</label>
+                <input type="text" id="nom" name="nom" required>
+            </div>
+            <div class="form-group">
+                <label for="sujet">Votre sujet</label>
+                <input type="text" id="sujet" name="sujet" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Votre message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn-primary">Envoyer</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Designed by <strong>Marc Joël BÉLABRE</strong> with HTML, CSS and JavaScript</p>
+        <p>© 2025 Développeur en devenir. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
